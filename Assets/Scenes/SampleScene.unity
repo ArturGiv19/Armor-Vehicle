@@ -1194,14 +1194,9 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -26, y: -6}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!198 &503890407 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 198258662121256016, guid: 4cf45cdce36e66e4a93614abb5ae7821, type: 3}
-  m_PrefabInstance: {fileID: 1493574829}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &503890408 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4020996693717984, guid: 4cf45cdce36e66e4a93614abb5ae7821, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3283579000372619181, guid: 3722b2a9e34c2a246902a8732f6ce75b, type: 3}
   m_PrefabInstance: {fileID: 1493574829}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &511825904
@@ -1733,7 +1728,7 @@ MonoBehaviour:
   gun: {fileID: 1785115380}
   health: 100
   healthSlider: {fileID: 1294885759}
-  deathEffect: {fileID: 503890407}
+  deathEffect: {fileID: 1493574830}
 --- !u!65 &872491388
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7754,14 +7749,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1090445690776855177, guid: 28b3e6637a1845547800854acaa814a0, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b8f929e2e3a24894db6cbd97a2a83429, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 28b3e6637a1845547800854acaa814a0, type: 3}
 --- !u!4 &1286439419 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4866601383873978, guid: b8f929e2e3a24894db6cbd97a2a83429, type: 3}
+  m_CorrespondingSourceObject: {fileID: 2154161210236593660, guid: 28b3e6637a1845547800854acaa814a0, type: 3}
   m_PrefabInstance: {fileID: 1175288521}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1294885757
@@ -8481,7 +8480,12 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4cf45cdce36e66e4a93614abb5ae7821, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 3722b2a9e34c2a246902a8732f6ce75b, type: 3}
+--- !u!198 &1493574830 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5104507598233565360, guid: 3722b2a9e34c2a246902a8732f6ce75b, type: 3}
+  m_PrefabInstance: {fileID: 1493574829}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1503963495
 GameObject:
   m_ObjectHideFlags: 0
